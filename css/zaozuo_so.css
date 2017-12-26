@@ -1,0 +1,178 @@
+
+/*
+	全球惊艳
+*/
+
+
+/*标题*/
+.container .title{
+    text-align: center;
+}
+.container .title h2{
+    font-size:24px;
+	font-weight:bold;
+}
+.container .title p{
+	display:inline-block;
+	padding-top:5px;
+	font-size:13px;
+	border-top:1px solid #d2d2d2;
+}
+
+/*商品分类*/
+.container .productClass{
+    height:46px;
+}
+.container h3{
+    margin:0;
+	line-height:46px;
+    font-weight: bold;
+	font-size:20px;
+}
+.container .productClass .pClass {
+    font-size:14px;
+	line-height:46px;
+}
+
+/*商品详情*/
+.container .details .product{
+	position:relative;
+	text-align:center;
+	transition:all 0.5s;
+	padding:0;
+}
+.container .details .product .visible{
+	width:100%;
+	transition:all 0.5s;
+}
+.container .details .product .visible img{
+	width:100%;
+}
+.container .details .product .visible a{
+	display:block;
+	text-align:center;
+	margin-bottom:5px;
+	font-weight:bold;
+}
+.container .details .product .visible p{
+	margin-bottom:5px;
+	font-weight:bold;
+}
+.container .details .product .visible .colorSelect{
+	display:inline-block;
+	padding:2px 5px;
+	font-size:10px;
+	background:#f6f6f6;
+}
+.container .details .product .visible2{
+	position:absolute;
+	top:0;
+	opacity:0;
+	transition:all 0.5s;
+	width:100%;
+}
+.container .details .product .visible2 span{
+	width:60%;
+	padding:15px;
+	font-size:16px;
+	border:5px solid #313131;
+	position:absolute;
+	left:0;
+	right:0;
+	margin:0 auto;
+	margin-top:30%;
+}
+.container .details .product .designer{
+	position:absolute;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:0 auto;
+	opacity:0;
+	transition:all 0.5s;
+	padding-top:10px;
+	border-top:1px solid #d2d2d2;
+}
+
+/*鼠标悬浮*/
+/*
+.container .details .product .visible:hover{
+	opacity:0.1;
+}
+.container .details .product .visible2:hover{
+	opacity:1;
+}
+.container .details .product .designer:hover{
+	opacity:1;
+}
+*/
+.container .details .product:hover{
+	cursor:pointer;
+}
+.hidden2{
+	opacity:0.1 !important;
+}
+.hidden3{
+	opacity:0 !important;
+}
+.active3{
+	opacity:1 !important;
+}
+
+/*
+	全球惊艳
+*/
+.whole{
+	width:100%;
+}
+.container .designer{
+	padding:0;
+	position:relative;
+}
+.container .designer img{
+	width:100%;
+	height:auto;
+}
+.container .designer .shadowBlack{
+	position:absolute;
+	top:0;
+	background:black;
+	opacity:0;
+}
+.container .designer .shadowBlack img,.container .designerGlobal img{
+	width:100%;
+	opacity:0;
+}
+.container .designer .designerGlobal{
+	width:100%;
+	position:absolute;
+	top:30%;
+	opacity:0;
+}
+.container .designer .designerGlobal h1{
+	top:-150px;
+	text-align:center;
+	font-size:22px;
+	font-weight:bold;
+	color:#fff !important;
+}
+.container .designer .designerGlobal p{
+	text-align:center;
+	font-size:16px;
+	color:#fff !important;
+}
+
+/*鼠标悬浮*/
+.container .designer:hover{
+	cursor:pointer;
+}
+.shadow_active{
+	opacity:0.5 !important;
+}
+.designer_active{
+	opacity:1 !important;
+}
+
+.sub-title{
+	font-size:24px !important;
+}

@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: siyuan,"Microsoft YaHei",sans-serif;
+    letter-spacing: 2px;
+    box-sizing: border-box;
+	color:#313131 !important;
+}
+a{
+	text-decoration:none !important;
+}
+img{
+    vertical-align: middle;
+}
+
+/*标题*/
+.container .title{
+    text-align: center;
+}
+.container .title h2{
+    font-size:24px;
+	font-weight:bold;
+}
+.container .title p{
+	display:inline-block;
+	padding-top:5px;
+	font-size:13px;
+	border-top:1px solid #d2d2d2;
+}
+
+/*商品分类*/
+.container .productClass{
+    height:46px;
+}
+.container h3{
+    margin:0;
+	line-height:46px;
+    font-weight: bold;
+	font-size:20px;
+}
+.container .productClass .pClass {
+    font-size:14px;
+	line-height:46px;
+}
+
+/*商品详情*/
+.container .details .product{
+	position:relative;
+	text-align:center;
+}
+.container .details .product .visible{*/
+	opacity:0.1;
+	transition:all 0.5s;
+}
+.container .details .product .visible img{
+	width:100%;
+}
+.container .details .product .visible a{
+	display:block;
+	text-align:center;
+	margin-bottom:5px;
+	font-weight:bold;
+}
+.container .details .product .visible p{
+	margin-bottom:5px;
+	font-weight:bold;
+}
+.container .details .product .visible .colorSelect{
+	display:inline-block;
+	padding:2px 5px;
+	font-size:10px;
+	background:#f6f6f6;
+}
+.container .details .product .visible2{
+	position:absolute;
+	top:0;
+	opacity:0;
+	text-align:center;
+	transition:all 0.5s;
+}
+.container .details .product .visible2 span{
+	display:inline-block;
+	width:60%;
+	padding:15px;
+	font-size:16px;
+	border:5px solid #313131;
+	margin-top:25%;
+}
+.container .details .product .designer{
+	position:absolute;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:0 auto;
+	opacity:0;
+	transition:all 0.5s;
+}
+
+/*鼠标悬浮*/
+/*
+.container .details .product .visible:hover{
+	opacity:0.1;
+}
+.container .details .product .visible2:hover{
+	opacity:1;
+}
+.container .details .product .designer:hover{
+	opacity:1;
+}
+*/
+
+.hidden2{
+	opacity:0.1 !important;
+}
+.active2{
+	opacity:1 !important;
+}
